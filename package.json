@@ -1,0 +1,38 @@
+{
+  "name": "frontend-terminal-logger",
+  "version": "1.0.0",
+  "description": "Stream frontend browser logs directly to your terminal.",
+  "main": "src/index.js",
+  "bin": {
+    "frontend-terminal-logger": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "frontend",
+    "logger",
+    "terminal",
+    "websocket",
+    "debug"
+  ],
+  "author": "Sagar Bhati",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sagar-1609/frontend_logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sagar-1609/frontend_logger/issues"
+  },
+  "files": [
+    "src",
+    "bin",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "ws": "^8.16.0",
+    "picocolors": "^1.0.0"
+  }
+}
