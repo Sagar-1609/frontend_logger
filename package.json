@@ -1,7 +1,10 @@
 {
-  "name": "frontend-terminal-logger",
+  "name": "@sagar-1609/frontend-terminal-logger",
   "version": "1.0.0",
   "description": "Stream frontend browser logs directly to your terminal.",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "src/index.js",
   "bin": {
     "frontend-terminal-logger": "./bin/cli.js"
