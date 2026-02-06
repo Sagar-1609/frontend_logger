@@ -1,5 +1,5 @@
 {
-  "name": "@sagar-1609/frontend-terminal-logger",
+ "name": "@sagarbhatia/frontend-terminal-logger",
   "version": "1.0.0",
   "description": "Stream frontend browser logs directly to your terminal.",
   "publishConfig": {
