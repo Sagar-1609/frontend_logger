@@ -1,4 +1,4 @@
-# @sagar-1609/frontend-terminal-logger
+# @sagarbhatia/frontend-terminal-logger
 
 Streams your frontend browser console logs (`console.log`, `warn`, `error`) directly to your terminal. No need to switch windows or open Chrome DevTools for quick debugging!
 
@@ -12,7 +12,7 @@ Streams your frontend browser console logs (`console.log`, `warn`, `error`) dire
 ## Installation
 
 ```bash
-npm install @sagar-1609/frontend-terminal-logger
+npm install @sagarbhatia/frontend-terminal-logger
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm install @sagar-1609/frontend-terminal-logger
 In your terminal, run:
 
 ```bash
-npx @sagar-1609/frontend-terminal-logger
+npx @sagarbhatia/frontend-terminal-logger
 ```
 
 You should see:
@@ -36,7 +36,7 @@ You should see:
 In your main entry file (e.g., `src/index.js` or `src/main.jsx`):
 
 ```javascript
-import { initLogger } from "@sagar-1609/frontend-terminal-logger";
+import { initLogger } from "@sagarbhatia/frontend-terminal-logger";
 
 // Initialize logger
 initLogger({
