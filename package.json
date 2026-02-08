@@ -1,6 +1,6 @@
 {
  "name": "@sagarbhatia/frontend-terminal-logger",
- "version": "1.0.1",
+ "version": "1.0.2",
  "description": "Stream frontend browser logs directly to your terminal.",
  "publishConfig": {
   "access": "public"
