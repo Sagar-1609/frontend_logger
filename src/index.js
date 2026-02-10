@@ -3,7 +3,7 @@ function initLogger(config = {}) {
     serverUrl = 'ws://localhost:5000',
     level = 'log', // 'log' includes info, warn, error. 'warn' includes warn, error. 'error' only error.
   } = config;
-
+// testing by prince
   // Attempt to detect development mode. 
   // Vite uses import.meta.env.DEV
   // Create React App / Webpack often uses process.env.NODE_ENV
